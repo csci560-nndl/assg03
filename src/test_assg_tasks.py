@@ -1,11 +1,10 @@
 import numpy as np
 import pandas as pd
 import sklearn
-#import unittest
+import unittest
 from tensorflow import keras
 import keras.src
 from tensorflow.keras import layers
-from twisted.trial import unittest
 from assg_tasks import get_logistic_regression_model
 from assg_tasks import get_neural_network_model
 from assg_tasks import get_more_powerful_model

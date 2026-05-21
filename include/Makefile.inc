@@ -61,9 +61,9 @@ $(assg_doc) : README.md
 ##
 .PHONY : unit-tests
 unit-tests :
-	python -m twisted.trial test_assg_tasks.test_get_logistic_regression_model
-	python -m twisted.trial test_assg_tasks.test_get_neural_network_model
-	python -m twisted.trial test_assg_tasks.test_get_more_powerful_model
+	python -m unittest test_assg_tasks.test_get_logistic_regression_model
+	python -m unittest test_assg_tasks.test_get_neural_network_model
+	python -m unittest test_assg_tasks.test_get_more_powerful_model
 	
 
 ## clean        : Remove auto-generated files for a completely
