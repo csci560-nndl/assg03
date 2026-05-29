@@ -6,15 +6,15 @@ date: ''
 
 # Description
 
-Welcome to our third assignment for the class.  Its time to build your first neural network using the Keras API.  You will be using a dataset to perform classifiction that only has 2 features,
-but that is not linearably separable.  You will start with a simple single layer, which is equivalent to a simple logistic regressor, then you will increase the power of the model to try and
+Welcome to our third assignment for the class.  Its time to build your first neural network using the Keras API.  You will be using a dataset to perform classification that only has 2 features,
+but that is not linearly separable.  You will start with a simple single layer, which is equivalent to a simple logistic regressor, then you will increase the power of the model to try and
 see how that effects the decision boundary that a model with more representational power can make.
 
 **Instructions:**
 
 - Do not use loops (for/while) in your code, unless the instructions explicitly ask you to do so.
 - Use the Keras functional API to implement your asked for network architectures, and to practice and
-  get used to specifing models using that API.
+  get used to specifying models using that API.
 
 # Objectives
 
