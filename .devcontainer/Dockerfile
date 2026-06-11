@@ -14,13 +14,13 @@ RUN groupadd --gid $USER_GID $USERNAME \
     # Install additional needed os packages here
     # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
     && apt-get update \
-    && apt-get install -y sudo nvtop \
+    && apt-get install -y sudo nvtop graphviz \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
 # Enable contrib component in debian apt sources so we can install nvtop
 # and other packages
-RUN sed -i 's/Components: main/Components: main contrib/g' /etc/apt/sources.list.d/debian.sources
+RUN sed -i 's/Components: main/Components: maine contrib/g' /etc/apt/sources.list.d/debian.sources
 
 
 # setup the user python environment and install needed packages
